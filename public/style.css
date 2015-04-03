@@ -1,0 +1,111 @@
+body {
+  font-weight: 300;
+  background: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  color: #ddd;
+}
+
+h2, h3 {
+  font-weight: 200;
+  margin-bottom: 0.5em;
+}
+
+
+h1 {
+  font-family: 'Oswald';
+}
+
+#short-link {
+  margin-top: 1em;
+}
+
+.centering {
+  margin-top: 0em;
+  height: 100px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.movie-style-nav {
+  color: white;
+  border-radius: 0;
+}
+
+.front-page-header {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  margin-bottom: 0.2em;
+  margin-top: 0.5em;
+}
+
+p .front-page-subhead {
+ margin-bottom: 2em;
+}
+
+
+#front-page-button {
+  height: 2em;
+  line-height: 1.2em;
+}
+
+h5 {
+  font-weight: 200;
+}
+
+#show-page {
+  text-align: center;
+  margin-top: 0.7em;
+  margin-bottom: 1em;
+}
+
+p .right-column {
+  margin-bottom: 2em;
+}
+
+ #white-text {
+  color: white;
+}
+
+hr {
+  border-top: 0;
+  border-bottom: 1px solid black;
+}
+
+
+.right {
+  margin-top: 1.75em;
+  margin-left: 0em;
+}
+
+.left {
+  margin-right: 2em;
+}
+
+#info-bottom {
+  margin-top: 0.5em ;
+  margin-bottom: 1em;
+}
+
+img {
+  margin-bottom: 1em;
+  margin-top: 2em;
+
+}
+
+.movie-info {
+  font-size: 1.5em;
+  border: 1px solid black;
+}
+
+ul {
+  list-style: none;
+}
