@@ -14,8 +14,8 @@ var db = require('../models')
 router.post('/', function(req, res) {
   db.link.create({url: req.body.url }).then(function(data) {
     data.hash = hashids.encode(data.id);
-    data.save().then(function(newData) {
-        res.render('links/create', {hash: data.hash});
+    data.save().then(function() {var hashObject = {hash: "http://" + req.headers.host+"/"+data.hash}
+        res.render('links/create', hashObject);
     })
   })
 })

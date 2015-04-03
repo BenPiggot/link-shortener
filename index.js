@@ -3,6 +3,9 @@ var linksCtrl = require("./controllers/links")
 var db = require("./models")
 var app = express();
 var bodyParser = require("body-parser");
+var Hashids = require('hashids');
+
+hashids = new Hashids("This is Ben's salt")
 
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({extended: false}));
