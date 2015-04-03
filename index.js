@@ -10,6 +10,10 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.set("view engine", "ejs");
 app.use("/links", linksCtrl);
 
+app.get("/", function(req, res) {
+  res.render('index');
+})
+
 app.get('/:hash', function(req, res) {
   var id = parseInt(hashids.decode(req.params.hash))
   db.link.find(id).then(function(link) {
